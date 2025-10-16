@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Barsik — тестовый сайт</title>
+  <meta name="description" content="Тестовый сайт для GitHub Pages." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Barsik Pages</h1>
+      <p class="tagline">Тестовый артефакт для GitHub Pages</p>
+      <nav class="nav">
+        <a href="#about">О сайте</a>
+        <a href="#demo">Демо</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section container">
+      <h2>О сайте</h2>
+      <p>Это минимальный статический сайт: HTML + CSS + JS. Залей в репозиторий и включи GitHub Pages — готово.</p>
+      <ul class="features">
+        <li><strong>Просто:</strong> один HTML, стили и небольшой JS.</li>
+        <li><strong>Быстро:</strong> загружается мгновенно, подходит для теста.</li>
+        <li><strong>Расширяемо:</strong> добавляй секции, стили, скрипты.</li>
+      </ul>
+    </section>
+
+    <section id="demo" class="section container">
+      <h2>Демо</h2>
+      <p>Нажми кнопку — сайт покажет, что JS работает.</p>
+      <button id="magicBtn" class="button">Запустить магию</button>
+      <div id="output" class="output" aria-live="polite"></div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2>Контакты</h2>
+      <p>Размещено на GitHub Pages. Добавь свой домен позже через CNAME.</p>
+      <ul class="contacts">
+        <li><strong>GitHub:</strong> <a href="https://github.com/" target="_blank" rel="noopener">github.com</a></li>
+        <li><strong>Автор:</strong> Barsik</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Barsik. Тестовый артефакт.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
